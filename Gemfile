@@ -31,5 +31,5 @@ gem 'redis', '~> 5.2'
 gem 'hiredis-client', '~> 0.22.2'
 gem 'anycable-rails', '~> 1.5', '>= 1.5.2'
 
-gem "redis-session-store", "~> 0.11.5"
+gem 'redis-session-store', '~> 0.11.5'
 gem 'ruby2html', '~> 1.3', '>= 1.3.2'

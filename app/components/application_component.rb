@@ -12,11 +12,11 @@ class ApplicationComponent < ViewComponentReflex::Component
   def stimulus_component_controller(opts_or_tag = :div, opts = {}, &block)
     initialize_component
 
-    tag = :div
+    :div
     options = if opts_or_tag.is_a? Hash
       opts_or_tag
     else
-      tag = opts_or_tag
+      opts_or_tag
       opts
     end
 
